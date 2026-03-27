@@ -25,7 +25,7 @@ export default function App() {
 
   // --- STATE RUTIN DENGAN LOCAL STORAGE ---
   const [routines, setRoutines] = useState(() => {
-    const savedRoutines = localStorage.getItem('myRoutines');
+    const savedRoutines = localStorage.getItem('myRoutines2');
     if (savedRoutines) return JSON.parse(savedRoutines);
     return {
       pagi: [
@@ -73,7 +73,7 @@ export default function App() {
   }, [tasks]);
 
   useEffect(() => {
-    localStorage.setItem('myRoutines', JSON.stringify(routines));
+    localStorage.setItem('myRoutines2', JSON.stringify(routines));
   }, [routines]);
 
   useEffect(() => {

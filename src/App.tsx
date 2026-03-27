@@ -29,19 +29,22 @@ export default function App() {
     if (savedRoutines) return JSON.parse(savedRoutines);
     return {
       pagi: [
-        { id: 'p1', text: 'Paksa diri bangun (Target 7/8 AM)', done: false },
-        { id: 'p2', text: 'Rutin Skincare (Cuci + Pelembap) masa mandi', done: false },
-        { id: 'p3', text: 'Pergi Kelas / Ulangkaji santai', done: false },
-        { id: 'p4', text: 'Sarapan & Makan Supplement', done: false },
+        { id: 'p1', text: 'Solat Subuh & Set niat hari ni', done: false },
+        { id: 'p2', text: 'Skincare (Cuci muka & pelembap rawat parut)', done: false },
+        { id: 'p3', text: 'Sarapan ringkas + Telan Supplement', done: false },
+        { id: 'p4', text: 'Pergi Kelas (Isnin-Khamis, Sabtu) / Ulangkaji', done: false },
       ],
       petang: [
-        { id: 'pt1', text: 'Makan tengah hari (Kurang manis, lebih lauk)', done: false },
-        { id: 'pt2', text: 'Buat kerja sekolah (Janji mula 15 minit dulu)', done: false },
+        { id: 'pt1', text: 'Solat Zohor & Asar', done: false },
+        { id: 'pt2', text: 'Makan tengah hari (Kurangkan nasi, elak perut buncit)', done: false },
+        { id: 'pt3', text: 'Senaman kempis buncit (Jalan kaki/Workout 20 minit)', done: false },
+        { id: 'pt4', text: 'Fokus FYP Smart Tank (Buat 15 minit je, janji jalan)', done: false },
       ],
       malam: [
-        { id: 'm1', text: 'Healing / Jalan kaki riadah 20 minit (Senaman buang buncit)', done: false },
-        { id: 'm2', text: 'Catat duit belanja harini', done: false },
-        { id: 'm3', text: 'Tutup mata pukul 12/1 pagi (JANGAN TIDUR SIANG)', done: false },
+        { id: 'm1', text: 'Solat Maghrib & Isyak', done: false },
+        { id: 'm2', text: 'Healing (Main MLBB / Layan Mandarin sekejap)', done: false },
+        { id: 'm3', text: 'Catat duit belanja harini', done: false },
+        { id: 'm4', text: 'Tidur sebelum 1 Pagi (PANTANG TIDUR SIANG!)', done: false },
       ]
     };
   });
